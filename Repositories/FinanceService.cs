@@ -4,7 +4,7 @@ namespace Repositories
 {
     public class FinanceService
     {
-        DataStorage dataStorage;
+        private DataStorage dataStorage { get; set; }
 
         public FinanceService(DataStorage dataStorage)
         {

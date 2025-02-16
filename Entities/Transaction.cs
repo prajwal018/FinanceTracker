@@ -16,7 +16,8 @@
         public override string? ToString()
         {
             return "Transaction{" + "amount=" + amount + ", category='" + category + '\''
-                + ", description='" + description + '\'' + '}';
+                + ", description='" + description + '\'' + "}\n";
+
         }
     }
 }

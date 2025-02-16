@@ -93,7 +93,7 @@ namespace Repositories
 
         public void setBudget(string category, Budget budget)
         {
-            budgets.Add(category, budget);
+            budgets[category]=budget;
             SaveBudgets();
         }
 

@@ -35,7 +35,7 @@ namespace Entities
                 "category='" + category + '\'' +
                 ", limit=" + limit +
                 ", spent=" + spent +
-                '}';
+                "}\n";
         }
     }
 }
